@@ -1,0 +1,31 @@
+
+
+{
+ "_comment": "bare bone manifest file that will be modified over time",
+
+
+
+
+  "manifest_version": 2,
+
+  "name": "Silver Surfer Services",
+  "description": "Inspired by my grandpa's complete inability to use technology but his strong desire to, I'm interested in developing an app/extension/any interface that will make using common technology much simpler for senior citizens. It could use a designated individual, like their child, to setup the system and would be the primary contact before any major mistakes are made.\nThis system would help to control what websites they can visit (similar to parental controls), what they can download to avoid the many viruses my grandparents get every 5 minutes, and a password wallet system. There are many more issues that this could tackle but these are issues I face on a regular basis with my grandparents.",
+
+  "version": "1.0",
+  "icons": { "16": "icon16.png",
+	     "32": "icon32.png",
+             "64": "icon64.png",
+	     "128": "icon128.png"},
+
+		
+
+  "browser_action": {
+    "default_icon": "icon16.png",
+    "default_popup": "popup.html",
+    "default_title": "Silver Surfin"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
